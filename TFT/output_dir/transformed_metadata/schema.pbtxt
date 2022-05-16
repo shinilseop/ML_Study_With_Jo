@@ -1,0 +1,166 @@
+feature {
+  name: "age"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "capital-gain"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "capital-loss"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "education"
+  type: INT
+  int_domain {
+    min: 0
+    max: 16
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "education-num"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "hours-per-week"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "label"
+  type: INT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "marital-status"
+  type: INT
+  int_domain {
+    min: 0
+    max: 7
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "native-country"
+  type: INT
+  int_domain {
+    min: 0
+    max: 42
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "occupation"
+  type: INT
+  int_domain {
+    min: 0
+    max: 15
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "race"
+  type: INT
+  int_domain {
+    min: 0
+    max: 5
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "relationship"
+  type: INT
+  int_domain {
+    min: 0
+    max: 6
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "sex"
+  type: INT
+  int_domain {
+    min: 0
+    max: 2
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "workclass"
+  type: INT
+  int_domain {
+    min: 0
+    max: 9
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
